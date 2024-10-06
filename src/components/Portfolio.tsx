@@ -26,7 +26,7 @@ export default function Portfolio() {
 
   interface Skill {
     name: string
-    icon: React.ComponentType
+    icon: React.ComponentType<{ className?: string }>; // Explicitly allow className
     category: SkillCategory
     proficiency: number // 1-100
   }
