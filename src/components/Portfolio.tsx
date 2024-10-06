@@ -326,7 +326,7 @@ export default function Portfolio() {
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                     >
-                      {/* <skill.icon className="w-8 h-8 mx-auto mb-4 text-primary dark:text-secondary" /> */}
+                      <skill.icon className="w-8 h-8 mx-auto mb-4 text-primary dark:text-secondary" />
                       <h5 className="text-lg font-semibold mb-2 text-primary dark:text-secondary">
                         {skill.name}
                       </h5>
