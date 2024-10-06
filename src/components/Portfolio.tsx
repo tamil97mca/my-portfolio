@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { ChevronDown, Github, Linkedin, Mail, ExternalLink, Menu, Download } from 'lucide-react'
 import Image from 'next/image'
+import { IconType } from 'react-icons';
 
 import Confetti from 'react-confetti'
 import {
@@ -26,7 +27,7 @@ export default function Portfolio() {
 
   interface Skill {
     name: string
-    icon: React.ComponentType<{ className?: string }>; // Explicitly allow className
+    icon: IconType
     category: SkillCategory
     proficiency: number // 1-100
   }
