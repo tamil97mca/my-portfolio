@@ -18,6 +18,7 @@ import profileImage from '@/assets/images/Profile.jpg';
 import ecommerceDashboard  from "@/assets/images/ecommerce-dashboard.jpg";
 import taskManagement  from "@/assets/images/Task Management App.jpg"
 import smartAppBuilder  from "@/assets/images/Smart App Builder.png";
+import EMICalculator  from "@/assets/images/EMI Calculator.png";
 
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState('home')
@@ -374,6 +375,13 @@ export default function Portfolio() {
                   technologies: ['Angular', 'TypeScript', 'Node.js', 'MongoDB'],
                   link: '#',
                   image: smartAppBuilder
+                },
+                {
+                  title: 'Loan Module with Amortization Schedule',
+                  description: 'The Loan Calculator is a web application designed to simplify the loan management process for users.', // It allows users to input key financial details such as principal amount, interest type, rate of interest, number of installments, and payment start date. Once the data is submitted, the application calculates the Equated Monthly Installment (EMI) and generates a comprehensive amortization schedule, detailing the due dates, opening balances, interest paid, and principal repaid for each installment. This tool enhances financial literacy and provides users with clear insights into their loan repayment plans.
+                  technologies: ['Next.js', 'TypeScript', 'React'],
+                  link: 'https://vercel.live/link/loan-calculator-tamil97mcas-projects.vercel.app?via=project-dashboard-alias-list&p=1',
+                  image: EMICalculator
                 },
                 {
                   title: 'E-commerce Dashboard',
